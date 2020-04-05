@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee602869-9d0b-45d7-880c-44cbdc75e1fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/getHttpsConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/pnpTs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
+    <list default="true" id="ee602869-9d0b-45d7-880c-44cbdc75e1fe" name="Default Changelist" comment=":star: 环境配置">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/apis/modules/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/404/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/DashBorad/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Login/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/User/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-overrides.js" beforeDir="false" afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apis/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/apis/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -56,6 +58,16 @@
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="eject" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -78,6 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.eject" />
       </list>
     </recent_temporary>
@@ -94,7 +107,8 @@
       <updated>1585668310730</updated>
       <workItem from="1585668312200" duration="1202000" />
       <workItem from="1586068730485" duration="851000" />
-      <workItem from="1586069880508" duration="1066000" />
+      <workItem from="1586069880508" duration="1526000" />
+      <workItem from="1586071679528" duration="5077000" />
     </task>
     <task id="LOCAL-00001" summary=":star: 初始设置">
       <created>1585668924060</created>
@@ -103,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585668924060</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=":star: 环境配置">
+      <created>1586071189384</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586071189385</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,36 +132,50 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=":star: 初始设置" />
-    <option name="LAST_COMMIT_MESSAGE" value=":star: 初始设置" />
+    <MESSAGE value=":star: 环境配置" />
+    <option name="LAST_COMMIT_MESSAGE" value=":star: 环境配置" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="356" y="86" key="CommitChangelistDialog2" timestamp="1585668923912">
-      <screen x="0" y="23" width="1536" height="871" />
-    </state>
-    <state x="356" y="86" key="CommitChangelistDialog2/34.-1057.2560.1057/0.23.1536.871@0.23.1536.871" timestamp="1585668923912" />
-    <state width="1373" height="240" key="GridCell.Tab.0.bottom" timestamp="1586070743918">
+    <state x="528" y="266" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586092558331">
       <screen x="0" y="23" width="1536" height="880" />
     </state>
-    <state width="1373" height="240" key="GridCell.Tab.0.bottom/0.23.1536.880@0.23.1536.880" timestamp="1586070743918" />
+    <state x="528" y="266" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1536.880@0.23.1536.880" timestamp="1586092558331" />
+    <state x="356" y="87" key="CommitChangelistDialog2" timestamp="1586090420304">
+      <screen x="0" y="23" width="1536" height="880" />
+    </state>
+    <state x="356" y="87" key="CommitChangelistDialog2/0.23.1536.880@0.23.1536.880" timestamp="1586090420304" />
+    <state x="356" y="86" key="CommitChangelistDialog2/34.-1057.2560.1057/0.23.1536.871@0.23.1536.871" timestamp="1585668923912" />
+    <state x="574" y="340" width="422" height="199" key="Github.ShareDialog" timestamp="1586071220409">
+      <screen x="0" y="23" width="1536" height="880" />
+    </state>
+    <state x="574" y="340" width="422" height="199" key="Github.ShareDialog/0.23.1536.880@0.23.1536.880" timestamp="1586071220409" />
+    <state width="1373" height="308" key="GridCell.Tab.0.bottom" timestamp="1586094030209">
+      <screen x="0" y="23" width="1536" height="880" />
+    </state>
+    <state width="1373" height="308" key="GridCell.Tab.0.bottom/0.23.1536.880@0.23.1536.880" timestamp="1586094030209" />
     <state width="1494" height="146" key="GridCell.Tab.0.bottom/34.-1057.2560.1057/0.23.1536.869@0.23.1536.869" timestamp="1585669516211" />
     <state width="1083" height="338" key="GridCell.Tab.0.bottom/34.-1057.2560.1057/0.23.1536.871@0.23.1536.871" timestamp="1585668927232" />
-    <state width="1373" height="240" key="GridCell.Tab.0.center" timestamp="1586070743917">
+    <state width="1373" height="308" key="GridCell.Tab.0.center" timestamp="1586094030208">
       <screen x="0" y="23" width="1536" height="880" />
     </state>
-    <state width="1373" height="240" key="GridCell.Tab.0.center/0.23.1536.880@0.23.1536.880" timestamp="1586070743917" />
+    <state width="1373" height="308" key="GridCell.Tab.0.center/0.23.1536.880@0.23.1536.880" timestamp="1586094030208" />
     <state width="1494" height="146" key="GridCell.Tab.0.center/34.-1057.2560.1057/0.23.1536.869@0.23.1536.869" timestamp="1585669516211" />
     <state width="1083" height="338" key="GridCell.Tab.0.center/34.-1057.2560.1057/0.23.1536.871@0.23.1536.871" timestamp="1585668927231" />
-    <state width="1373" height="240" key="GridCell.Tab.0.left" timestamp="1586070743916">
+    <state width="1373" height="308" key="GridCell.Tab.0.left" timestamp="1586094030207">
       <screen x="0" y="23" width="1536" height="880" />
     </state>
-    <state width="1373" height="240" key="GridCell.Tab.0.left/0.23.1536.880@0.23.1536.880" timestamp="1586070743916" />
+    <state width="1373" height="308" key="GridCell.Tab.0.left/0.23.1536.880@0.23.1536.880" timestamp="1586094030207" />
     <state width="1494" height="146" key="GridCell.Tab.0.left/34.-1057.2560.1057/0.23.1536.869@0.23.1536.869" timestamp="1585669516210" />
     <state width="1083" height="338" key="GridCell.Tab.0.left/34.-1057.2560.1057/0.23.1536.871@0.23.1536.871" timestamp="1585668927230" />
-    <state width="1373" height="240" key="GridCell.Tab.0.right" timestamp="1586070743917">
+    <state width="1373" height="308" key="GridCell.Tab.0.right" timestamp="1586094030208">
       <screen x="0" y="23" width="1536" height="880" />
     </state>
-    <state width="1373" height="240" key="GridCell.Tab.0.right/0.23.1536.880@0.23.1536.880" timestamp="1586070743917" />
+    <state width="1373" height="308" key="GridCell.Tab.0.right/0.23.1536.880@0.23.1536.880" timestamp="1586094030208" />
     <state width="1494" height="146" key="GridCell.Tab.0.right/34.-1057.2560.1057/0.23.1536.869@0.23.1536.869" timestamp="1585669516211" />
     <state width="1083" height="338" key="GridCell.Tab.0.right/34.-1057.2560.1057/0.23.1536.871@0.23.1536.871" timestamp="1585668927232" />
+    <state x="411" y="184" key="Vcs.Push.Dialog.v2" timestamp="1586071198472">
+      <screen x="0" y="23" width="1536" height="880" />
+    </state>
+    <state x="411" y="184" key="Vcs.Push.Dialog.v2/0.23.1536.880@0.23.1536.880" timestamp="1586071198472" />
   </component>
 </project>
